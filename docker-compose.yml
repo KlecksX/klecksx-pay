@@ -1,6 +1,7 @@
 web:
   restart: always
   build: ./web/
+  working_dir: /data/web/mydjango
   expose:
     - "8000"
   links:
